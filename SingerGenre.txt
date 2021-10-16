@@ -1,0 +1,13 @@
+Paul McCartney;Pop/Rock
+Paul McCartney;Blues
+Rod Stewart;Blues
+Sting;Folk
+Michael Buble;Jazz
+Chris Brown;R&B
+Elvis Presley;Country
+Jenny Hval;Avant-Garde
+Mariza;International
+Paul McCartney;Jazz
+Michael Buble;Folk
+Rod Stewart;Pop/Rock
+Sting;Blues
