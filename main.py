@@ -9,11 +9,11 @@ db = f'postgresql://{user}:{pswd}@{host}/{dbname}'
 engine = sqlalchemy.create_engine(db)
 connection = engine.connect()
 
-# # Очистка таблиц на время тестов
-query_restart = 'TRUNCATE TABLE ' \
-                'genre, singer, album, singergenre, singeralbum, track, collection, collectiontrack ' \
-                'RESTART IDENTITY CASCADE;'
-result_restart = connection.execute(query_restart)
+# Очистка таблиц на время тестов
+#query_restart = 'TRUNCATE TABLE ' \
+#                'genre, singer, album, singergenre, singeralbum, track, collection, collectiontrack ' \
+#                'RESTART IDENTITY CASCADE;'
+#result_restart = connection.execute(query_restart)
 
 # Заполнение таблицы Singer
 with open("Singer.txt", "r", encoding='utf-8') as f:
